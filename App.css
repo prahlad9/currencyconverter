@@ -1,0 +1,100 @@
+*
+{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #100429;
+  font-family: "Inter", sans-serif;
+}
+ 
+.card
+{
+    background-color: #0b9ca4;
+    width: 55%;
+    min-width: 550px;
+    padding: 50px;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 50%;
+    left: 50%;
+    border-radius: 8px;
+}
+ 
+h1{
+  /* padding: 16px; */
+  background: #e10303;
+  font-size: 30px !important;
+  margin-bottom: 2rem;
+  font-weight: 700;
+  color: #080808;
+}
+ 
+.currency_exchnage
+{
+  display: flex;
+  justify-content: space-between;
+  background: #0e075a;
+  /* align-items: center; */
+}
+ 
+.input_container {
+  
+  width: 30%;
+  height: fit-content;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  background: #10033b;
+}
+ 
+.icon {
+  width: 20px;
+  position: absolute;
+  z-index: 99;
+  left: 12px;
+  bottom: 9px;
+}
+ 
+.input_label {
+  font-size: 0.95rem;
+  color: #01030a;
+  font-weight: 600;
+  background: #4a12d9;
+}
+ 
+.input_field {
+  width: auto;
+  height: 60px;
+  background: #11f51d;
+  padding: 0 0 0 40px;
+  border-radius: 7px;
+  outline: none;
+  border: 1px solid #f50909;
+  filter: drop-shadow(0px 1px 0px #efefef)
+    drop-shadow(0px 1px 0.5px rgba(239, 239, 239, 0.5));
+  transition: all 0.3s cubic-bezier(0.15, 0.83, 0.66, 1);
+}
+ 
+.input_field:focus {
+  border: 1px solid transparent;
+  background: #ff0e22;
+  box-shadow: 0px 0px 0px 2px #242424;
+  background-color: transparent;
+}
+ 
+.output
+{
+  background: #f15405;
+}
+ 
+ 
+h2
+{
+  width: 50%;
+  margin-top: 20px;
+  background-color: #317d07;
+  padding: 26px;
+  border-radius: 10px;
+  color: #01030a;
+}
